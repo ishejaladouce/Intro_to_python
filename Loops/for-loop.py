@@ -28,3 +28,15 @@ while counter <=10:
     if counter == 10:
         break
     counter += 1
+
+#This will ask the user to enter a number and then uses for loop to print the multiplication of that number from 1 to 10
+number = int(input("Enter a number: "))
+for i in range(1, 11):
+    print(number * i)
+    i += 1
+
+#This will ask the user to enter a number and then uses for loop to print the multiplication of that number from 1 to 10
+number = int(input("Enter a number: "))
+for i in range(1, 11):
+    print(number * i)
+    i += 1
