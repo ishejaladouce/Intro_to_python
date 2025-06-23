@@ -15,28 +15,19 @@ name = ["Eric", "John", "Mary", "Alice"]
 for i in name:
     print (i)
 
-#Example 5: this will print numbers from 0 to 10
-counter = 0
-while counter <=10:
-    print (counter)
-    counter += 1
-
-# Example 6: this will print numbers from 0 to 10 and break the loop when it reaches 10
-counter = 0
-while counter <=10:
-    print (counter)
-    if counter == 10:
-        break
-    counter += 1
-
-#This will ask the user to enter a number and then uses for loop to print the multiplication of that number from 1 to 10
+#Example 7: This will ask the user to enter a number and then uses for loop to print the multiplication of that number from 1 to 10
 number = int(input("Enter a number: "))
-for i in range(1, 11):
+for i in range(1, 11, 1):
     print(number * i)
+
+#Example 8: This will ask the user to enter a number and then uses for loop to print the multiplication of that number from 1 to 10
+myNum = int(input("Enter a number: "))
+for i in range(1, 11):
+    print(myNum * i)
     i += 1
 
-#This will ask the user to enter a number and then uses for loop to print the multiplication of that number from 1 to 10
-number = int(input("Enter a number: "))
+#Example 7: This will ask the user to enter a number and then uses for loop to print the multiplication of that number from 1 to 10
+myNumber = int(input("Enter a number: "))
 for i in range(1, 11):
-    print(number * i)
+    print(f"{myNumber} * {i} = {myNumber * i}")
     i += 1
