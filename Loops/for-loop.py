@@ -15,3 +15,8 @@ name = ["Eric", "John", "Mary", "Alice"]
 for i in name:
     print (i)
 
+#Example 5: this will print numbers from 0 to 10
+counter = 0
+while counter <=10:
+    print (counter)
+    counter += 1
