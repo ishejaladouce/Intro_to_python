@@ -20,3 +20,11 @@ counter = 0
 while counter <=10:
     print (counter)
     counter += 1
+
+# Example 6: this will print numbers from 0 to 10 and break the loop when it reaches 10
+counter = 0
+while counter <=10:
+    print (counter)
+    if counter == 10:
+        break
+    counter += 1
