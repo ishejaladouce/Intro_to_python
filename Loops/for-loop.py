@@ -9,3 +9,9 @@ for i in range (1, 10, 2):
 #Example 3: this will print "Hello world" 5 Times
 for i in range (1, 10, 2):
     print ("Hello world")
+
+# Example 4: this will print names in the list
+name = ["Eric", "John", "Mary", "Alice"]
+for i in name:
+    print (i)
+
