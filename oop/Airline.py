@@ -1,5 +1,5 @@
 passenger_Name = input("Enter passenger name: ")
-Weight = int(input(f"Enter weight in kg: {kg}"))
+Weight = int(input(f"Enter weight in kg: "))
 
 class AirlineTicket:
     def __init__(self, passenger_Name, weight):
